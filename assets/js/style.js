@@ -7,9 +7,9 @@ class User {
   }
   compareAge(user) {
     if (this.age > user.age) {
-      return this.firstName + "è piu grande " + user.firstName;
+      return this.firstName + " è piu grande " + user.firstName;
     } else if (this.age < user.age) {
-      return this.firstName + "è piu piccolo di " + user.firstName;
+      return this.firstName + " è piu piccolo di " + user.firstName;
     } else {
       return "hanno la stessa età";
     }
