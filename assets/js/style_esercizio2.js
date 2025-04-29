@@ -16,6 +16,6 @@ form.addEventListener("submit", function (e) {
   const inOltherName = document.getElementById("oltherName").value;
   const inSpecies = document.getElementById("species").value;
   const inBreed = document.getElementById("breed").value;
-  assNewPet(inPetName, inOltherName, inSpeciesn, inBreed);
+  assNewPet(inPetName, inOltherName, inSpecies, inBreed);
   form.reset();
 });
